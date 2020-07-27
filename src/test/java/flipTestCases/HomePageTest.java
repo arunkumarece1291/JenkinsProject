@@ -40,7 +40,7 @@ public class HomePageTest extends BaseInfo
 	}
 	
 	
-	@Test(priority = 1)
+	@Test(priority = 1, groups = {"smoke"})
 	public void homePageTest()
 	{
 		String title = homepageObj.validateHomePageTitle();

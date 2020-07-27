@@ -28,7 +28,7 @@ public class LoginPageTest  extends BaseInfo
 	}
 
 	
-	@Test(priority = 1)
+	@Test(priority = 1, groups = {"smoke"})
 	public void loginPageTitleTest()
 	{
 		String title = loginpageObj.validateLoginPageTitle();
